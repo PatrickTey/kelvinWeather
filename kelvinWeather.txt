@@ -1,0 +1,10 @@
+// the first input
+const kelvin = 0;
+//defining celsius
+let cenlsius = kelvin - 273;
+//formula for F
+let fahrenheit = cenlsius * (9/5) + 32;
+//rounding F down
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
